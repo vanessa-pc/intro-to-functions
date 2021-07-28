@@ -1,9 +1,8 @@
-// function:
-// =========
-// name: countVowels
-// parameter: inputString: string
-// return type: number
-
+/**
+ * Given a string, return the number of vowel occurences in the string.
+ * @param {string} inputString - input string
+ * @returns {number} the number of vowel occurences in the given string
+ */
 function countVowels(inputString) {
   // set count to 0
   let count = 0;
