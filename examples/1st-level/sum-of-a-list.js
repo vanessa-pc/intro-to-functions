@@ -1,9 +1,8 @@
-// function:
-// =========
-// name: sumList
-// parameter: numbers: list of numbers
-// return type: number
-
+/**
+ * Given a list of numbers, return the total by adding all numbers in the list.
+ * @param {Array} numbers - array of numbers
+ * @returns {number} returns sum of all numbers in the list
+ */
 function sumList(numbers) {
   // set runningTotal to 0
   let runningTotal = 0;
