@@ -1,10 +1,9 @@
-// function:
-// =========
-// name: min
-// parameter a: number
-// parameter b: number
-// return: number
-
+/**
+ * Given two numbers, return the smaller of the two
+ * @param {number} a - the first number
+ * @param {number} b - the second number
+ * @returns the smaller number of the two
+ */
 function min(a, b) {
   // if a is smaller than b
   if (a < b) {
