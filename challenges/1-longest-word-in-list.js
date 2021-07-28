@@ -1,3 +1,8 @@
+/**
+ * Given a list of strings, return string with the greatest character count including duplicates.
+ * @param {array} arr - input array of strings
+ * @returns {string} longest string in the array
+ */
 function longestInList(arr){
     let longest = arr[0]
     for (let i of arr){
