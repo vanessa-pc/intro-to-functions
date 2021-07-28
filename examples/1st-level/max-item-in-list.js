@@ -1,9 +1,8 @@
-// function:
-// =========
-// name: maxInList
-// parameter: numbers: list of numbers
-// return type: number
-
+/**
+ * Given a list of number, return the largest number in it.
+ * @param {array} numbers - array of numbers
+ * @returns {number} largest number in list
+ */
 function maxInList(numbers) {
   // set biggest to first number in list
   let biggest = numbers[0];
