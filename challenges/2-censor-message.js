@@ -1,3 +1,9 @@
+/**
+ * Given a string and an array of strings, return censored string where all the words from the array are replaces with 5 asterisks (*****).
+ * @param {string} message - inpute string
+ * @param {array} banList - array of strings with words to censor
+ * @returns {string} censored message by replacing the words both in the banList and the string with 5 asterisks.
+ */
 function censorMessage(message, banList){
     let rawWords = message.split(" ")
     let scrubbedWords = []
