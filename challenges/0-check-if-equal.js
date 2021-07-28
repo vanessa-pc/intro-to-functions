@@ -1,3 +1,9 @@
+/**
+ * Given two numbers, return a boolean to represent if the two numbers are equal. 
+ * @param {number} a - the first number
+ * @param {number} b - the second number
+ * @returns {Boolean} boolean representation of whether the two numbers are equal
+ */
 function isEqual(a,b){
     if (a===b){
         return true
