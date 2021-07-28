@@ -2,7 +2,7 @@
  * Given two numbers, return the smaller of the two
  * @param {number} a - the first number
  * @param {number} b - the second number
- * @returns the smaller number of the two
+ * @returns {number} the smaller number of the two numbers
  */
 function min(a, b) {
   // if a is smaller than b
